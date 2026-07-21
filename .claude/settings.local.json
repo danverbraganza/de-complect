@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(de-complect)",
+      "Bash(cargo check:*)",
+      "Bash(cargo clippy:*)",
+      "Bash(cargo fmt:*)",
+      "Bash(cargo nextest run:*)",
+      "Bash(ratchets check:*)"
+    ]
+  }
+}

@@ -2,4 +2,4 @@ help:
     @just --list
 
 install:
-    cp -r ./de-complect/ ~/.claude/skills/de-complect
+    cp -r ./skills/de-complect/ ~/.claude/skills/de-complect

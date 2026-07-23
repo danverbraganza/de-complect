@@ -1,6 +1,10 @@
 ---
 name: de-complect
 description: Use when asked to "simplify", "de-complect", "untangle", "remove cruft", "make erroneous states unrepresentable", or "clean up" a design document (plan/ADR/spec) or an implementation branch after a feature lands and before merge — or when a diff is thick with defensive checks, sentinels, tri-state configs, scattered validation, speculative abstraction, and stored-but-derivable state.
+license: MIT
+metadata:
+  version: 1.0.0
+  creator: danverbraganza
 ---
 
 # De-complect: remove braided complexity from designs and code

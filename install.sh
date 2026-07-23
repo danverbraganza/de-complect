@@ -11,6 +11,6 @@ RAW="${DE_COMPLECT_RAW:-https://raw.githubusercontent.com/danverbraganza/de-comp
 DEST="${CLAUDE_SKILLS_DIR:-$HOME/.claude/skills}/de-complect"
 
 mkdir -p "$DEST"
-curl -fsSL "$RAW/de-complect/SKILL.md" -o "$DEST/SKILL.md"
+curl -fsSL "$RAW/skills/de-complect/SKILL.md" -o "$DEST/SKILL.md"
 
 echo "Installed de-complect skill to $DEST"

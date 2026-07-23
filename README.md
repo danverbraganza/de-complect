@@ -39,18 +39,34 @@ This downloads the skill into `~/.claude/skills/de-complect/`. Override the dest
 just install
 ```
 
-### Manually
+### With a skill manager ([agent-skills-manager](https://github.com/umutbozdag/agent-skills-manager) / `asm` / `sm`)
 
-Copy the `de-complect/` directory into your skills directory — either global:
+The skill follows the standard `skills/<name>/SKILL.md` layout, so skill managers discover it
+straight from the repo:
 
 ```bash
-cp -r de-complect/ ~/.claude/skills/de-complect/
+# asm (github.com/luongnv89/asm)
+asm install github:danverbraganza/de-complect -p claude
+
+# sm (pypi.org/project/agent-skill-manager)
+sm install https://github.com/danverbraganza/de-complect -a claude-code
+```
+
+For the agent-skills-manager dashboard, open **Install → From Git** and paste
+`https://github.com/danverbraganza/de-complect`, then pick `de-complect`.
+
+### Manually
+
+Copy the skill directory into your skills directory — either global:
+
+```bash
+cp -r skills/de-complect/ ~/.claude/skills/de-complect/
 ```
 
 or into a single project:
 
 ```bash
-cp -r de-complect/ /path/to/your/project/.claude/skills/de-complect/
+cp -r skills/de-complect/ /path/to/your/project/.claude/skills/de-complect/
 ```
 
 ## Usage
@@ -62,8 +78,9 @@ or when a diff is thick with defensive checks, sentinels, and stored-but-derivab
 ## Skill Contents
 
 ```
-de-complect/
-└── SKILL.md    # The de-complect pass: radar, razors, process, and self-check gates
+skills/
+└── de-complect/
+    └── SKILL.md    # The de-complect pass: radar, razors, process, and self-check gates
 ```
 
 ## Key ideas

@@ -55,6 +55,17 @@ sm install https://github.com/danverbraganza/de-complect -a claude-code
 For the agent-skills-manager dashboard, open **Install → From Git** and paste
 `https://github.com/danverbraganza/de-complect`, then pick `de-complect`.
 
+### As a Claude Code plugin
+
+The repo doubles as its own single-plugin marketplace. From inside Claude Code:
+
+```
+/plugin marketplace add danverbraganza/de-complect
+/plugin install de-complect@de-complect-marketplace
+```
+
+Then reload (`/reload-plugins`) and invoke the skill with `/de-complect:de-complect`.
+
 ### Manually
 
 Copy the skill directory into your skills directory — either global:

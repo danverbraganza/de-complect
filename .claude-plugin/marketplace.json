@@ -1,0 +1,18 @@
+{
+  "name": "de-complect-marketplace",
+  "owner": {
+    "name": "Danver Braganza"
+  },
+  "plugins": [
+    {
+      "name": "de-complect",
+      "source": "./",
+      "displayName": "De-complect",
+      "description": "Remove braided complexity from design documents and implementation branches — a quality, behavior-preserving simplification pass.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/danverbraganza/de-complect",
+      "repository": "https://github.com/danverbraganza/de-complect",
+      "license": "MIT"
+    }
+  ]
+}

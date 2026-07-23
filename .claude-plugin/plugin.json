@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "de-complect",
+  "displayName": "De-complect",
+  "version": "1.0.0",
+  "description": "Remove braided complexity from design documents and implementation branches — a quality, behavior-preserving simplification pass.",
+  "author": {
+    "name": "Danver Braganza"
+  },
+  "homepage": "https://github.com/danverbraganza/de-complect",
+  "repository": "https://github.com/danverbraganza/de-complect",
+  "license": "MIT"
+}
